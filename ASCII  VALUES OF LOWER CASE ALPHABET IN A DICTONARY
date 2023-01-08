@@ -1,0 +1,5 @@
+D1 = dict()
+lowecaseAlphabet = range(97,123)
+for i in lowecaseAlphabet:
+    D1[chr(i)] = str(i)
+print(D1)
