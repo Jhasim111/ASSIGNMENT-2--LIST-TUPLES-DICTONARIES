@@ -1,0 +1,16 @@
+list1 = [(2, 5), (1, 2), (4, 4), (2, 3), (2, 1)]
+
+li1=[]
+li2=[]
+
+for t in list1:     # iterating list 1  to get the list of last elemnt in tuple inside the list.
+    li1.append(t[1],)
+
+li1.sort()   # to arrange in ascending order of new list l1 .
+
+for l in li1:
+    for q in list1:          # iterating both the list to arange the last element of tuple in ascending order using comparision operator & performing appending with new list as expected.
+        if l == int(q[1],): 
+            li2.append(q)
+
+print(li2)
